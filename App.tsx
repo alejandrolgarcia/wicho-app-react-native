@@ -1,11 +1,14 @@
+import 'react-native-gesture-handler';
 import React from 'react';
 import { Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { TabNavigator } from './src/navigation/TabNavigator';
 
 const App = () => {
   return (
-    <View>
-      <Text style={{ fontSize: 25 }}>Hola Wicho</Text>
-    </View>
+    <NavigationContainer>
+      <TabNavigator />
+    </NavigationContainer>
   )
 }
 

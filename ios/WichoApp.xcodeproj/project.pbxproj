@@ -42,6 +42,7 @@
 		78A25AB662F608D7DCD2F726 /* Pods-WichoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WichoApp.release.xcconfig"; path = "Target Support Files/Pods-WichoApp/Pods-WichoApp.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = WichoApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9984E3B7C83B5CE4871C7AAD /* Pods-WichoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WichoApp.debug.xcconfig"; path = "Target Support Files/Pods-WichoApp/Pods-WichoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C0346A38265DEFE4005C4453 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F88B7364F45262DA5338D1D6 /* Pods-WichoApp-WichoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WichoApp-WichoAppTests.release.xcconfig"; path = "Target Support Files/Pods-WichoApp-WichoAppTests/Pods-WichoApp-WichoAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +117,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				C0346A35265DEFA4005C4453 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* WichoApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* WichoAppTests */,
@@ -145,8 +147,15 @@
 				757BE14E96D5927F5BA922A9 /* Pods-WichoApp-WichoAppTests.debug.xcconfig */,
 				F88B7364F45262DA5338D1D6 /* Pods-WichoApp-WichoAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C0346A35265DEFA4005C4453 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C0346A38265DEFE4005C4453 /* Ionicons.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
